@@ -1,0 +1,23 @@
+{
+  "packages": [
+    "main-vite",
+    "main-vue3-webpack",
+    "vite",
+    "vite-1",
+    "vite-project",
+    "vue3"
+  ],
+  "npmClient": "pnpm",
+  "command": {
+    "version": {
+      "allowBranch": "master"
+    },
+    "bootstrap": {
+      "npmClientArgs": [
+        "--no-package-lock",
+        "--legacy-peer-deps"
+      ]
+    }
+  },
+  "version": "1.0.6"
+}

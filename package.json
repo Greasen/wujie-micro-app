@@ -1,0 +1,17 @@
+{
+  "name": "wujie-micro",
+  "version": "1.0.0",
+  "description": "micro frontend work",
+  "author": "hema",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "lerna run dev --parallel",
+    "clean": "rimraf node_modules **/*/node_modules"
+  },
+  "devDependencies": {
+    "@lerna-lite/cli": "^1.11.1",
+    "@lerna-lite/run": "^1.11.1",
+    "rimraf": "^3.0.2"
+  }
+}

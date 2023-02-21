@@ -1,0 +1,7 @@
+packages:
+  - 'main-vite'
+  - 'main-vue3-webpack'
+  - 'vite'
+  - 'vite-1'
+  - 'vite-project'
+  - 'vue3'
