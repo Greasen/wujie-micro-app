@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
+import formilyComp from '../components/formily.vue'
 
 const value = ref("");
 
@@ -66,6 +67,8 @@ const handleCurrentChange = (val: number) => {
         @current-change="handleCurrentChange"
       />
     </div>
+
+    <formilyComp />
   </div>
 </template>
 

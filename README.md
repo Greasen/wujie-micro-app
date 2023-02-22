@@ -27,3 +27,14 @@ pnpm run dev
 
 子应用 package 中的 `vite`, 版本需要锁定，否则在子应用切换的过程中，会出现样式错乱
 子应用 package 中的 `element-plus` 版本需要锁定, 否则在子应用切换的过程中，会出现 `TypeError: Cannot read properties of null` 相关bug
+
+### 模板规范
+
+通常是 `script` 在 `template ` 前面
+
+```vue
+<script lang="ts" setup></script>
+<template></template>
+<style></style>
+
+```

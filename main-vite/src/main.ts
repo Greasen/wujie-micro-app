@@ -9,7 +9,7 @@ const { setupApp } = WujieVue;
 const app = createApp(App)
 
 const props = {
-  jump: (name) => {
+  jump: (name: string) => {
     router.push({ name });
   },
 };
