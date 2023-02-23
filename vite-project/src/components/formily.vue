@@ -110,6 +110,7 @@ const schema = {
 const log = (values) => {
   console.log(values);
 };
+
 </script>
 
 <template>
